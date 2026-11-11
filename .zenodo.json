@@ -1,0 +1,17 @@
+{
+  "title": "Cross-cohort heart-failure signature generalisation and the limits of pre-LVAD transcriptomic recovery prediction: analysis code",
+  "upload_type": "software",
+  "description": "<p>Analysis code accompanying the manuscript <em>Cross-cohort heart-failure signature generalisation and the limits of pre-LVAD transcriptomic recovery prediction: a leakage-controlled multi-cohort benchmark</em>.</p><p>The pipeline integrates eight public human left-ventricular transcriptomic cohorts using DerSimonian&ndash;Laird random-effects meta-analysis of Hedges g, bootstrap L1-penalised logistic regression and gradient-boosted trees (XGBoost, TreeSHAP), with all feature selection confined to training cohorts under leave-one-cohort-out (LOCO) validation. Pre-LVAD myocardial recovery is modelled in the outcome-labelled pre-LVAD hearts of GSE328059 with in-fold sequencing-batch adjustment, repeated stratified cross-validation, full-pipeline label permutations and held-out-batch evaluation. Frozen models are tested once in an independent bulk pre-LVAD cohort (PRJNA1312133, quantified with Salmon) and transferred to single-nucleus pseudobulk profiles (GSE226314). Consensus-clustering subtyping and paired post-LVAD analyses are included. The stages are numbered 01&ndash;09 and run with <code>run_all.sh</code>.</p><p>Note: the code was re-implemented from the manuscript Methods with AI assistance; results are close to, but not identical to, the manuscript values (see <code>VALIDATION.md</code>). Raw data are not included and are available from GEO and the European Nucleotide Archive.</p>",
+  "creators": [
+    {"name": "Al Arian, Tawsif", "affiliation": "Department of Pharmacy, Faculty of Biological Sciences, Jahangirnagar University, Savar, Dhaka-1342, Bangladesh"},
+    {"name": "Bhuiya, M Salahuddin", "affiliation": "Department of Pharmacy, Faculty of Biological Sciences, Jahangirnagar University, Savar, Dhaka-1342, Bangladesh"},
+    {"name": "Yesmine, Saquiba", "affiliation": "Department of Pharmacy, Faculty of Biological Sciences, Jahangirnagar University, Savar, Dhaka-1342, Bangladesh"},
+    {"name": "Akter, Most Afrin", "affiliation": "Department of Pharmacy, Faculty of Biological Sciences, Jahangirnagar University, Savar, Dhaka-1342, Bangladesh"},
+    {"name": "Sakib, Md Shoriful Alam", "affiliation": "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Jahangirnagar University, Savar, Dhaka-1342, Bangladesh"},
+    {"name": "Momin, Fayzun Nessa", "affiliation": "Department of Pharmacy, University of Asia Pacific, Dhaka, Bangladesh"},
+    {"name": "Islam, Ehsanul", "affiliation": "Department of Pharmacy, Faculty of Biological Sciences, Jahangirnagar University, Savar, Dhaka-1342, Bangladesh"}
+  ],
+  "keywords": ["heart failure", "left ventricular assist device", "myocardial recovery", "transcriptomics", "machine learning", "biomarker generalisation", "data leakage", "leave-one-cohort-out validation"],
+  "license": "MIT",
+  "access_right": "open"
+}

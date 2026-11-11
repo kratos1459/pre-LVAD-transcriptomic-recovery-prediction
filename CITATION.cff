@@ -4,5 +4,44 @@ title: "Cross-cohort heart-failure signature and pre-LVAD recovery benchmark: an
 authors:
   - family-names: "Al Arian"
     given-names: "Tawsif"
+    affiliation: "Department of Pharmacy, Faculty of Biological Sciences, Jahangirnagar University, Savar, Dhaka-1342, Bangladesh"
+  - family-names: "Bhuiya"
+    given-names: "M Salahuddin"
+    affiliation: "Department of Pharmacy, Faculty of Biological Sciences, Jahangirnagar University, Savar, Dhaka-1342, Bangladesh"
+  - family-names: "Yesmine"
+    given-names: "Saquiba"
+    affiliation: "Department of Pharmacy, Faculty of Biological Sciences, Jahangirnagar University, Savar, Dhaka-1342, Bangladesh"
+  - family-names: "Akter"
+    given-names: "Most Afrin"
+    affiliation: "Department of Pharmacy, Faculty of Biological Sciences, Jahangirnagar University, Savar, Dhaka-1342, Bangladesh"
+  - family-names: "Sakib"
+    given-names: "Md Shoriful Alam"
+    affiliation: "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Jahangirnagar University, Savar, Dhaka-1342, Bangladesh"
+  - family-names: "Momin"
+    given-names: "Fayzun Nessa"
+    affiliation: "Department of Pharmacy, University of Asia Pacific, Dhaka, Bangladesh"
+  - family-names: "Islam"
+    given-names: "Ehsanul"
+    affiliation: "Department of Pharmacy, Faculty of Biological Sciences, Jahangirnagar University, Savar, Dhaka-1342, Bangladesh"
 license: MIT
+repository-code: "https://github.com/kratos1459/pre-lvad-transcriptomic-recovery-prediction"
+abstract: "Leakage-controlled analysis code for cross-cohort heart-failure signature discovery (DerSimonian-Laird meta-analysis, leave-one-cohort-out validation) and pre-LVAD myocardial recovery prediction with in-fold batch adjustment, label permutations and frozen external validation (GSE328059, PRJNA1312133, GSE226314)."
+keywords:
+  - heart failure
+  - left ventricular assist device
+  - myocardial recovery
+  - transcriptomics
+  - machine learning
+preferred-citation:
+  type: article
+  status: in-preparation
+  title: "Cross-cohort heart-failure signature generalisation and the limits of pre-LVAD transcriptomic recovery prediction: a leakage-controlled multi-cohort benchmark"
+  authors:
+    - {family-names: "Al Arian", given-names: "Tawsif"}
+    - {family-names: "Bhuiya", given-names: "M Salahuddin"}
+    - {family-names: "Yesmine", given-names: "Saquiba"}
+    - {family-names: "Akter", given-names: "Most Afrin"}
+    - {family-names: "Sakib", given-names: "Md Shoriful Alam"}
+    - {family-names: "Momin", given-names: "Fayzun Nessa"}
+    - {family-names: "Islam", given-names: "Ehsanul"}
 # doi: add the Zenodo DOI of the GitHub release here
