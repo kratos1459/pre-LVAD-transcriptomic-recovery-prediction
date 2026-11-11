@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript and the Zenodo release."
+title: "Cross-cohort heart-failure signature and pre-LVAD recovery benchmark: analysis code"
+authors:
+  - family-names: "Al Arian"
+    given-names: "Tawsif"
+license: MIT
+# doi: add the Zenodo DOI of the GitHub release here

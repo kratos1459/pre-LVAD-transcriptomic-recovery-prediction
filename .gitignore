@@ -1,0 +1,6 @@
+data/
+results/
+figures/
+__pycache__/
+*.rds
+*.RData

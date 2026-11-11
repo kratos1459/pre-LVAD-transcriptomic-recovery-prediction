@@ -1,0 +1,10 @@
+name: bib-hf
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.12
+  - pip
+  - salmon=2.8.0
+  - r-base>=4.3
+  - r-seurat
+  - pip:
+      - -r requirements.txt
