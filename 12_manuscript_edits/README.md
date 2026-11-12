@@ -5,6 +5,8 @@ Scripts that insert the stage 10 and stage 11 results into the AHJ manuscript fi
 | script | edits |
 |---|---|
 | `edit_main.py` | Methods: two new subsections (calibration/clinical utility/precision; cell-type composition and pathway-level modeling). Results: two new subsections with four paragraphs. Discussion: one new paragraph and a rewritten Limitations sentence. Abstract Results: one added sentence. Data and code availability: sealed predictions. References 26-32 appended (no renumbering of 1-25). |
+| `edit_main2.py` | Second pass: Methods subsection and two Results subsections for stages 13-15, a Discussion paragraph, extra Limitations sentences, and an added Abstract sentence. |
+| `edit_supp2.py` | Second pass: Supplementary Methods paragraph, table notes S8-S10, and Figures S19-S21 with legends. |
 | `edit_supp.py` | Supplementary Methods: two new paragraphs. Table notes S5-S7. Figures S16-S18 embedded with legends before the Supplementary References. |
 
 Both read the submitted .docx from a path set at the top of the script and write a `*_revised.docx`
