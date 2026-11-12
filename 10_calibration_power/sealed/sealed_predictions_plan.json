@@ -1,0 +1,23 @@
+{
+ "created_utc": "2026-11-12T18:39:17+00:00",
+ "file": "sealed_predictions_GSE328059_validation.csv",
+ "sha256": "b139bb3fb5cdcd7db703df2ffe1f7aa8634be61212d34341af4ace494685c5b4",
+ "n_predicted": 134,
+ "derivation_prevalence": 0.31,
+ "decision_threshold_from_oof": 0.311146,
+ "predicted_responders_at_oof_threshold": 91,
+ "mean_predicted_probability_rescaled": 0.428,
+ "mean_predicted_probability_raw": 0.636,
+ "spearman_raw_vs_rescaled": 0.994,
+ "model": "elastic-net logistic regression (l1_ratio 0.5, C 0.1), 6000 most variable genes, batch adjustment and F-test selection of 200 genes fitted on the 84 labelled hearts only",
+ "distribution_shift_note": "All validation hearts come from sequencing runs outside the two derivation batches, so no fitted batch term applies to them and the raw probabilities are shifted upward relative to the derivation prevalence. The c-statistic depends only on ranks and is unaffected; calibration metrics are expected to be poor and are reported as such.",
+ "prespecified_primary_analysis": "When the labels of the GSE328059 validation cohort are released, compute the c-statistic of prob_rescaled_PRIMARY against the released labels, with a 5000-bootstrap 95% confidence interval and a two-sided permutation p-value. No refitting, rescaling or threshold change is permitted.",
+ "prespecified_secondary_analyses": [
+  "The same for prob_raw.",
+  "Calibration-in-the-large, calibration slope, Brier score and Brier skill score.",
+  "Decision-curve net benefit across threshold probabilities 0.02-0.75.",
+  "Sensitivity: c-statistic within each sequencing batch separately."
+ ],
+ "success_criterion": "A 95% confidence interval for the c-statistic excluding 0.5.",
+ "power_note": "At the derivation prevalence (about 42 responders among 134), this cohort has about 97% power to detect a true c-statistic of 0.70 and about 80% power at 0.65."
+}

@@ -1,0 +1,19 @@
+cohort,n1,n0,true_c,power_analytic,se_at_c
+external PRJNA1312133,10,9,0.6,0.104,0.132
+external PRJNA1312133,10,9,0.65,0.181,0.128
+external PRJNA1312133,10,9,0.7,0.292,0.122
+external PRJNA1312133,10,9,0.75,0.442,0.114
+external PRJNA1312133,10,9,0.8,0.626,0.104
+external PRJNA1312133,10,9,0.85,0.82,0.091
+internal GSE328059 (84),26,58,0.6,0.308,0.069
+internal GSE328059 (84),26,58,0.65,0.592,0.067
+internal GSE328059 (84),26,58,0.7,0.844,0.065
+internal GSE328059 (84),26,58,0.75,0.97,0.062
+internal GSE328059 (84),26,58,0.8,0.998,0.057
+internal GSE328059 (84),26,58,0.85,1.0,0.051
+"withheld GSE328059 validation (134, assumed 31% responders)",42,92,0.6,0.458,0.054
+"withheld GSE328059 validation (134, assumed 31% responders)",42,92,0.65,0.799,0.053
+"withheld GSE328059 validation (134, assumed 31% responders)",42,92,0.7,0.968,0.051
+"withheld GSE328059 validation (134, assumed 31% responders)",42,92,0.75,0.999,0.048
+"withheld GSE328059 validation (134, assumed 31% responders)",42,92,0.8,1.0,0.045
+"withheld GSE328059 validation (134, assumed 31% responders)",42,92,0.85,1.0,0.04

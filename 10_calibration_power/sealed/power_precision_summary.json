@@ -1,0 +1,29 @@
+{
+ "alpha": 0.05,
+ "nsim": 20000,
+ "minimum_detectable_c_at_80pct_power": {
+  "external_19_mde_80pct": 0.845,
+  "internal_84_mde_80pct": 0.689,
+  "withheld_134_mde_80pct": 0.65
+ },
+ "precision_requirements": {
+  "n_total_for_c0.7_CIwidth0.1": 539,
+  "events_for_c0.7_CIwidth0.1": 167,
+  "n_total_for_c0.7_CIwidth0.15": 240,
+  "events_for_c0.7_CIwidth0.15": 75,
+  "n_total_for_c0.75_CIwidth0.1": 484,
+  "events_for_c0.75_CIwidth0.1": 150,
+  "n_total_for_c0.75_CIwidth0.15": 216,
+  "events_for_c0.75_CIwidth0.15": 67,
+  "n_total_for_c0.8_CIwidth0.1": 414,
+  "events_for_c0.8_CIwidth0.1": 128,
+  "n_total_for_c0.8_CIwidth0.15": 185,
+  "events_for_c0.8_CIwidth0.15": 58,
+  "riley_rule_of_thumb": ">=100 events and >=100 non-events for external validation",
+  "external_observed_c": 0.578,
+  "external_observed_ci": [
+   0.27,
+   0.85
+  ]
+ }
+}
