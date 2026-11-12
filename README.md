@@ -21,6 +21,9 @@ Code for: *Cross-Cohort Heart-Failure Signature Generalisation and the Limits of
 | 09 | `09_figures` | `make_figures.py` | 02-05 results | run |
 | 10 | `10_calibration_power` | `calibration_dca.py`, `power_precision.py`, `sealed_predictions.py` | 05 (06a for the external part) | run |
 | 11 | `11_deconvolution_pathways` | `deconvolution.py`, `pathway_activity.py` | 01, 06c, 07 (06a for the external part) | run |
+| 13 | `13_signature_benchmark` | `benchmark_signatures.py` | 02, 05, 11 (06a for the external part) | run |
+| 14 | `14_meta_power` | `joint_meta_learning.py` | 05, 06a, 11 | run |
+| 15 | `15_diagnostics` | `signature_and_batch_diagnostics.py` | 01, 02, 05 | run |
 
 Quick start: `conda env create -f environment.yml && conda activate bib-hf && bash run_all.sh`. Seeds are fixed in `02_meta_lasso_shap/common.py`. Tested on Linux, Python 3.12, 16 cores, 64 GB RAM; stages 01-05, 07 and 09 take under an hour in total.
 

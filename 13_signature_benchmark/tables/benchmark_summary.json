@@ -1,0 +1,74 @@
+{
+ "n_fixed_predictors": 22,
+ "n_fixed_fdr05_internal": 5,
+ "best_fixed_internal": {
+  "predictor": "TRRUST: ATF3 human",
+  "auc_batch_centred": 0.7274535809018567
+ },
+ "n_fixed_p05_internal": 6,
+ "fitted": [
+  {
+   "gene_list": "all 6,000 variable genes",
+   "n_in_6000": 6000,
+   "cv_auc": 0.717,
+   "cv_sd": 0.046,
+   "heldout_11943": 0.7,
+   "heldout_10931": 0.818,
+   "random_mean": NaN,
+   "random_p95": NaN
+  },
+  {
+   "gene_list": "HF consensus (607)",
+   "n_in_6000": 331,
+   "cv_auc": 0.7,
+   "cv_sd": 0.058,
+   "heldout_11943": 0.569,
+   "heldout_10931": 0.782,
+   "random_mean": 0.712,
+   "random_p95": 0.775
+  },
+  {
+   "gene_list": "HF consensus top 150",
+   "n_in_6000": 94,
+   "cv_auc": 0.647,
+   "cv_sd": 0.059,
+   "heldout_11943": 0.631,
+   "heldout_10931": 0.752,
+   "random_mean": 0.688,
+   "random_p95": 0.778
+  },
+  {
+   "gene_list": "Hallmark union",
+   "n_in_6000": 1687,
+   "cv_auc": 0.721,
+   "cv_sd": 0.039,
+   "heldout_11943": 0.688,
+   "heldout_10931": 0.867,
+   "random_mean": 0.663,
+   "random_p95": 0.755
+  },
+  {
+   "gene_list": "TRRUST union",
+   "n_in_6000": 1244,
+   "cv_auc": 0.729,
+   "cv_sd": 0.046,
+   "heldout_11943": 0.725,
+   "heldout_10931": 0.806,
+   "random_mean": 0.701,
+   "random_p95": 0.779
+  }
+ ],
+ "external": {
+  "n": 19,
+  "n_tested": 22,
+  "n_p05": 2,
+  "n_fdr05_external": 0,
+  "n_significant_in_both": 0,
+  "best": {
+   "predictor": "HF consensus top 150",
+   "auc_external": 0.8222222222222222,
+   "p_external": 0.01721189027690576,
+   "fdr_external": 0.3786615860919267
+  }
+ }
+}
