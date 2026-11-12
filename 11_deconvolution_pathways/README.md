@@ -2,7 +2,7 @@
 
 | script | what it does | outputs |
 |---|---|---|
-| `deconvolution.py` | NNLS deconvolution of the 218 GSE328059 pre-LVAD hearts against the GSE226314 single-nucleus pseudobulk reference (13 cell types, 1,297 marker genes). Tests composition against recovery, sequencing batch and the consensus subtypes; predicts recovery from fractions alone; repeats the 6,000-gene model after in-fold removal of the composition component. | `deconvolution_fractions.csv`, `deconvolution_associations.csv`, `deconvolution_summary.json`, `FigS17_deconvolution.{png,tif}` |
+| `deconvolution.py` | NNLS deconvolution of the 218 GSE328059 pre-LVAD hearts against the GSE226314 single-nucleus pseudobulk reference (13 cell types, 1,297 marker genes). Tests composition against recovery, sequencing batch and the consensus subtypes; predicts recovery from fractions alone; repeats the 6,000-gene model after in-fold removal of the composition component. | `deconvolution_fractions.csv`, `deconvolution_associations.csv`, `deconvolution_summary.json`, `FigS17_deconvolution.{png,tif}`, `tables/` |
 | `pathway_activity.py` | Single-sample GSEA (gseapy) on MSigDB Hallmark and TRRUST TF-target sets (329 sets scored), then the stage-05 leakage-controlled pipeline on those scores, held-out-batch tests, univariate tests and a frozen external test on PRJNA1312133. | `pathway_scores_GSE328059.csv`, `pathway_univariate.csv`, `pathway_external_scores.csv`, `pathway_summary.json`, `FigS18_pathway_activity.{png,tif}`, `genesets.json` (cached libraries) |
 
 ```bash

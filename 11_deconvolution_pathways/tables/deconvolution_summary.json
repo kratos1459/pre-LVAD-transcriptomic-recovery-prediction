@@ -1,0 +1,20 @@
+{
+ "n_cell_types": 13,
+ "n_markers": 1297,
+ "auc_fractions_only": [
+  0.612,
+  0.035
+ ],
+ "auc_transcriptome": [
+  0.717,
+  0.046
+ ],
+ "auc_transcriptome_composition_adjusted": [
+  0.675,
+  0.051
+ ],
+ "top_recovery_cell_type": "Pericyte",
+ "min_p_recovery": 0.020287714539045945,
+ "min_fdr_recovery": 0.2637402890075973,
+ "min_fdr_subtype": 0.00014786792607293978
+}

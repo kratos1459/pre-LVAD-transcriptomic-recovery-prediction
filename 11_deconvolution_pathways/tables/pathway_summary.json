@@ -1,0 +1,28 @@
+{
+ "n_sets": 329,
+ "cv_auc_batch_adjusted": [
+  0.726,
+  0.048
+ ],
+ "cv_auc_unadjusted": 0.733,
+ "held_out_batch": {
+  "11943": 0.844,
+  "10931": 0.842
+ },
+ "n_sets_fdr05": 18,
+ "top_sets": [
+  "TRRUST|NFE2L2 human",
+  "TRRUST|APC human",
+  "MSigDB|p53 Pathway",
+  "TRRUST|HNF4A mouse",
+  "TRRUST|NFYB human"
+ ],
+ "external": {
+  "auc": 0.5444444444444445,
+  "ci": [
+   0.24986111111111114,
+   0.8181818181818182
+  ],
+  "exact_p": 0.780185758513932
+ }
+}
